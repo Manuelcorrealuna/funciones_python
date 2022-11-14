@@ -18,6 +18,11 @@
 # Aquí dentro definir la función ordenar
 # def ordenar(lista):
 
+def ordenar(numeros):
+    print("Función Ordenar")
+    numeros_ordenados = sorted(numeros)
+    return numeros_ordenados
+
 # --------------------------------
 
 
@@ -25,6 +30,8 @@ if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
     
     numeros = [2, 4, 10, 8, 12, 6]
+    
+
 
     # Alumno: Crear la función "ordenar"
 
@@ -42,6 +49,8 @@ if __name__ == '__main__':
 
     # lista_ordenada = ordenar(numeros)
 
+    lista_ordenada = ordenar(numeros)
+    print("La lista ordenada es: ", lista_ordenada)
     # Imprimir en pantalla "lista_ordenada" que tendrá
     # los valores retornado por la función ordenar:
 
